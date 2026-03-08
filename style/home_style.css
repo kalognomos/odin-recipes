@@ -1,0 +1,38 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: darkslategray;
+}
+
+body {
+    background-color: floralwhite;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 18vh;
+    text-align: center;
+}
+.container h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+
+.container ul {
+    display: inline-block;
+    background-color: peachpuff;
+    padding: 20px 40px;
+    text-align: left;
+    line-height: 32px;
+}
